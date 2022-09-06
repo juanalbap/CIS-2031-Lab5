@@ -9,12 +9,25 @@ using std::endl;
 //Step 1:   DECLARE a function named cube that takes one integer as a parameter,
 //          and returns an integer. Then try to run your program.
 
+/*int cube (int input) {
+
+}*/
 //YOUR WORK HERE
 
 //Step 2:   DEFINE (or "implement") the cube function, but JUST MAKE IT RETURN ZERO
 //          Then run your program
 
+/*int cube (int x) {
+
+return 0;
+
+}*/
+
 //YOUR WORK HERE
+
+int cube (int x) {
+   return x*x*x;
+}
 
 //Step 3:   In the space above, fix your cube function to return the input cubed
 
@@ -24,7 +37,7 @@ using std::endl;
 
 
 //Don't change anything below this line, but feel free to read it and get
-//a feel for what is happeining
+//a feel for what is happening
 
 //Define a function named test that tests the cube function with the
 //given input. It prints the results out to the console
